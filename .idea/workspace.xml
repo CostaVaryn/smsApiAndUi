@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5e7a33a-2eac-45b6-b826-2bbef8487370" name="Changes" comment="update xml file">
+    <list default="true" id="d5e7a33a-2eac-45b6-b826-2bbef8487370" name="Changes" comment="add xml file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sms/SmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sms/SmsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +126,28 @@
       <option name="project" value="LOCAL" />
       <updated>1660720596915</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update SmsTest.java">
+      <created>1660825021524</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660825021525</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add MarketTest.java">
+      <created>1660825085142</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660825085142</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add xml file">
+      <created>1660825101536</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660825101536</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,7 +163,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add pom.xml file" />
-    <MESSAGE value="add xml file" />
     <MESSAGE value="add SmsTest.java" />
     <MESSAGE value="add BaseSelenideTest.java" />
     <MESSAGE value="add extension modheader for cookie" />
@@ -151,6 +170,9 @@
     <MESSAGE value="add PhoneData.java" />
     <MESSAGE value="add NumberPage.java" />
     <MESSAGE value="update xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update xml file" />
+    <MESSAGE value="update SmsTest.java" />
+    <MESSAGE value="add MarketTest.java" />
+    <MESSAGE value="add xml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add xml file" />
   </component>
 </project>
