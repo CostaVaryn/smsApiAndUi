@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5e7a33a-2eac-45b6-b826-2bbef8487370" name="Changes" comment="add extension modheader for cookie">
+    <list default="true" id="d5e7a33a-2eac-45b6-b826-2bbef8487370" name="Changes" comment="update xml file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sms/SmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sms/SmsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +99,35 @@
       <option name="project" value="LOCAL" />
       <updated>1660720452730</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add SmsApi.java">
+      <created>1660720534309</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660720534309</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add PhoneData.java">
+      <created>1660720558551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660720558551</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add NumberPage.java">
+      <created>1660720574950</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660720574950</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update xml file">
+      <created>1660720596915</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660720596915</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +147,10 @@
     <MESSAGE value="add SmsTest.java" />
     <MESSAGE value="add BaseSelenideTest.java" />
     <MESSAGE value="add extension modheader for cookie" />
-    <option name="LAST_COMMIT_MESSAGE" value="add extension modheader for cookie" />
+    <MESSAGE value="add SmsApi.java" />
+    <MESSAGE value="add PhoneData.java" />
+    <MESSAGE value="add NumberPage.java" />
+    <MESSAGE value="update xml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="update xml file" />
   </component>
 </project>
