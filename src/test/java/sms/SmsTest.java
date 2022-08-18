@@ -23,6 +23,7 @@ public class SmsTest extends BaseSelenideTest {
         chromeOptions.addExtensions(new File("C:\\Users\\cosva\\IdeaProjects\\smsApiAndUi\\src\\test\\resources\\modheader.crx"));
         Configuration.browserCapabilities = new DesiredCapabilities();
         Configuration.browserCapabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
+        addCookie();
     }
 
     private void addCookie() {
