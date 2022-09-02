@@ -9,7 +9,7 @@ public class SmsApi {
     private final String URL = "https://smshub.org/stubs/handler_api.php";
     private final String API = "1523iu12h4kjh12iu431235iu1i2512352fw56";
 
-    public String getAccountBalance(){
+    public String getAccountBalance() {
         String body = given().contentType(ContentType.HTML)
                 .queryParam("apy_key", API)
                 .queryParam("action", "getBalance")
@@ -17,7 +17,6 @@ public class SmsApi {
                 .extract().body().htmlPath().getString("body");
         String[] data = body.split(":");
         return data[1];
-
     }
 
     public PhoneData getPhone() {
