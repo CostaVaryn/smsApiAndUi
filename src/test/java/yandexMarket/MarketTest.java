@@ -1,9 +1,6 @@
 package yandexMarket;
 
-import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.Selenide;
-import com.codeborne.selenide.SelenideElement;
-import com.codeborne.selenide.WebDriverRunner;
+import com.codeborne.selenide.*;
 import core.BaseSelenideTest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -15,9 +12,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.io.File;
 import java.util.Set;
 
-import static com.codeborne.selenide.Selectors.shadowCss;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$x;
+import static com.codeborne.selenide.Selenide.*;
 
 public class MarketTest extends BaseSelenideTest {
     private static Set<Cookie> yandexCookie;
@@ -46,7 +41,7 @@ public class MarketTest extends BaseSelenideTest {
         Set<Cookie> cookie = WebDriverRunner.getWebDriver().manage().getCookies();
         yandexCookie = cookie;
         SelenideElement textInfo = $x("//h1/following::div[1]");
-        $(shadowCss("#anyButton","#shadow-host")).click();
+        $$x("//div[@data-testid=\"menu-button-icon-container\"]").get(2).click(); // bad xpath
         String message = textInfo.getText();
         Assertions.assertNotEquals("Чтобы посмотреть историю заказов, авторизируйтесь", message);
     }
