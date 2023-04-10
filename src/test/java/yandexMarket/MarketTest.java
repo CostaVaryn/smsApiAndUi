@@ -36,7 +36,7 @@ public class MarketTest extends BaseSelenideTest {
     }
 
     @Test
-    public void checkAuth(){
+    public void checkAuth() {
         Selenide.open("https://market.yandex.ru/");
         Set<Cookie> cookie = WebDriverRunner.getWebDriver().manage().getCookies();
         yandexCookie = cookie;
