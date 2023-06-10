@@ -14,6 +14,8 @@ import phone.PhoneData;
 import java.io.File;
 
 import static com.codeborne.selenide.Selenide.$x;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class SmsTest extends BaseSelenideTest {
 
@@ -42,7 +44,7 @@ public class SmsTest extends BaseSelenideTest {
         NumberPage numberPage = new NumberPage();
         String balanceApi = smsApi.getAccountBalance();
         String balanceUi = numberPage.getAccountBalance();
-        Assertions.assertTrue(balanceUi.contains(balanceApi));
+        assertTrue(balanceUi.contains(balanceApi));
         int i = 0;
 
         /**
@@ -64,8 +66,8 @@ public class SmsTest extends BaseSelenideTest {
 
         String uiId = numberPage.getPhoneId();
         String uiPhone = numberPage.getPhoneNumber();
-        Assertions.assertEquals(apiId,uiId);
-        Assertions.assertEquals(apiPhone,uiPhone);
+        assertEquals(apiId, uiId);
+        assertEquals(apiPhone, uiPhone);
         int i = 0;
     }
 }
